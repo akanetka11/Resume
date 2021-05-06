@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__back">
+        <div class="header__wrapper">
+          <div class="container">
+            <div class="dropdown">
+              <button class="dropbtn">Resume</button>
+              <div class="dropdown-content">
+                <a href="#information">Information</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Hard skills</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="me" id="information">
+        <div class="container">
+            <div class="slider">
+            <img class="item" src="img/me.JPG">
+            <img class="item" src="img/me3.JPG"><img  class="item" src="img/me.JPG">
+              <a  class="previous" onclick="previousItem()">&#10094</a>
+              <a  class="next" onclick="nextItem()">&#10095;</a>
+            </div>
+
+            <div class="mainInf">
+              <h1>Antonenko Karina</h1>
+              <p>Birthday: October 11, 2002</p>
+              <p>Phone: +375296553025</p>
+              <p>Email: akanetka11@gmail.com</p>
+              <p>Inst: akanetka_</p>
+            </div>
+         
+        </div>
+      </div>
+      <div class="education" id="education">
+        <div class="education__wrapper">
+          <div class="container">
+            <div class="education-flex">
+              <h1>Education</h1>
+              <div class="education-p">
+                <p>(2018 - 2022) Minsk Radio Engineering College.</p>
+                <p>Specialty: Programmable mobile systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <div class="container">
+          <h1>Professional skills</h1>
+          <div class="skills-flex">
+            <div class="mySkills">
+              <ul>
+                <li class="HTML5 li"><a href="#">- HTML5</a></li>
+                <li class="CSS3 li"><a href="#">- CSS3</a></li>
+                <li class="JS li"><a href="#">- JavaScript</a></li>
+                <li class="Vue.js li"><a href="#">- Vue.js (basics)</a></li>
+              </ul>
+            </div>
+
+            <div class="js"><img src="img/jsss.jpg" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="conclusion">
+        <div class="container">
+          <p class="conclusion-textContent">
+            Now I am actively developing in this direction. I will be very glad to become a part of your company:)
+          </p>
+          <button type="button" class="back">back</button>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
